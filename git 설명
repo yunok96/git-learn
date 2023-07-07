@@ -1,0 +1,20 @@
+git
+head - 현재 위치
+git branch - 브랜치 생성
+git switch - 브랜치 이동
+메인(마스터)로 이동 후에 merge - 합치기
+
+merge 방식
+[3-way-merge]
+2 - ㄱ
+1 -  - 1
+일반적인 merge
+
+[fast-foward-merge]
+기존 main에 신규 변경점이 없는 경우
+
+branch -D (-d) - 삭제
+
+rebase - 신규 변경점이 있어도 fast-foward-merge 가능. 로그가 깔끔해보임
+새로운 브랜치로 이동 후에 git rebase 후에 main에서 merge
+

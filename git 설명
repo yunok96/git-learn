@@ -18,3 +18,13 @@ branch -D (-d) - 삭제
 rebase - 신규 변경점이 있어도 fast-foward-merge 가능. 로그가 깔끔해보임
 새로운 브랜치로 이동 후에 git rebase 후에 main에서 merge
 
+squash - 여러개의 커밋을 하나로 합침. merge 시에 세부 커밋이 깔끔하게 보임
+
+git restore - 최근 버전으로 파일 복구
+git resotre --source 커밋ID 파일명 - 특정 커밋으로 파일 복구
+git resotre --staged 스테이징 취소
+git revert 커밋ID - 특정 커밋 취소. (여러 커밋ID 가능)
+git reset --hard 커밋ID - 특정 커밋으로 이동. 이후 커밋 삭제
+
+git remote add origin 주소 - 원격 주소 설정
+git push -u 주소 - 원격 저장소에 업로드. -u 옵션은 주소 기억
